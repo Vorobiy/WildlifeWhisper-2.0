@@ -5,8 +5,11 @@ import Button from './Button.jsx'
 function App() {
   return(
     <>
+    <div className='app-container'>
       <Header/>
+      <Button/>
       <Video/>
+    </div>
     </>
   );
 }

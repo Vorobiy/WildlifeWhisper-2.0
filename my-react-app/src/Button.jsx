@@ -2,8 +2,8 @@ import React from "react";
 
 function Button(){
     return(
-        <div className="button-container">
-                <a href="#"><button className ="button">Pinpoint Poacher</button></a>
+        <div className='button'>
+            <a href="#"><button>Pinpoint Poacher</button></a>
         </div>
     );
 }
