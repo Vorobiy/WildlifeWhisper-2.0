@@ -1,7 +1,15 @@
+import Header from '../Header.jsx';
+import Video from '../Tiger.jsx';
+import Button from '../Button.jsx';
+
 export function Home() {
     return (
         <>
-            <h1>Home lol</h1>
+        <Header />
+        <Button />
+        <Video />
         </>
     )
 }
+
+export default Home;
