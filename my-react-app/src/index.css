@@ -38,7 +38,7 @@ video {
 .header-container {
   width: 100%;
   padding: 0 8%;
-  position: fixed;
+  position: absolute;
   z-index: 1;
 }
 
