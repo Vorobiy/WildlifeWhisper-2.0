@@ -1,7 +1,10 @@
+import Header from "../Header";
+
 export function AboutUs() {
     return (
-        <>
-            <h1>about us lol</h1>
+        <>            
+        <Header/>
+        <h1>Who are We?</h1>
         </>
     )
 }

@@ -9,8 +9,8 @@ function Header() {
                     <h1 className="logo">Wildlife Whisper</h1>
                     <ul className="nav-links">
                         <Link className={"link-styles"} to="/">Home</Link>
-                        <Link className={"link-styles"} to="/aboutUs">Abous Us</Link>
-                        <Link className={"link-styles"} to="/pinpointPoacher">Pinpoint Poacher</Link>
+                        <Link className={"link-styles"} to="/Pages/aboutUs">Abous Us</Link>
+                        <Link className={"link-styles"} to="/Pages/aboutUs">Pinpoint Poacher</Link>
                     </ul>
                 </nav>
             </header>
