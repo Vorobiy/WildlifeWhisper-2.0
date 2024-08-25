@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 function Header() {    
     return(
-        <div className="header-container">
+        <div className="w-full px-[8%] absolute z-10">
             <header>
-                <nav>
-                    <h1 className="logo">Wildlife Whisper</h1>
-                    <ul className="nav-links">
-                        <Link className={"link-styles"} to="/">Home</Link>
-                        <Link className={"link-styles"} to="/Pages/aboutUs">Abous Us</Link>
-                        <Link className={"link-styles"} to="/Pages/aboutUs">Pinpoint Poacher</Link>
+                <nav className="flex items-center justify-between">   
+                <h1 className="text-white font-bold text-2xl">Wildlife Whisper</h1>
+                <ul className="flex items-center py-7">
+                        <Link className="inline-block mx-4 text-white font-bold py-1.5 no-underline" to="/"><button>Home</button></Link>
+                        <Link className="inline-block mx-4 text-white font-bold py-1.5 no-underline" to="/Pages/aboutUs"><button>Abous Us</button></Link>
+                        <Link className="inline-block mx-4 text-white font-bold py-1.5 no-underline" to="/Pages/pinpointPoacher"><button>Pinpoint Poacher</button></Link>
                     </ul>
                 </nav>
             </header>
