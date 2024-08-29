@@ -47,6 +47,7 @@ export function PinpointPoacher() {
                             id="bitcoin" 
                             name="bitcoin" 
                             placeholder="Enter your Bitcoin Address" 
+                            required
                         />
                     </div>
                     <Upload></Upload>
