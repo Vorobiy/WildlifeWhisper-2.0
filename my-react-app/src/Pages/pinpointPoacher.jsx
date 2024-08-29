@@ -1,5 +1,5 @@
 import Header from '../Header.jsx';
-
+import Upload from "../Upload.jsx"
 export function PinpointPoacher() {
     return (
         <>
@@ -12,7 +12,7 @@ export function PinpointPoacher() {
 
                     <div className="relative flex justify-center m-12">
                     <input 
-                            className="w-full md:w-3/4 h-12 rounded-2xl pl-4" 
+                            className="w-full md:w-3/4 h-12 rounded-2xl pl-4 text-black" 
                             type="text" 
                             id="fname" 
                             name="fname" 
@@ -22,7 +22,7 @@ export function PinpointPoacher() {
 
                     <div className="relative flex justify-center m-12">
                     <input 
-                            className="w-full md:w-3/4 h-12 rounded-2xl pl-4" 
+                            className="w-full md:w-3/4 h-12 rounded-2xl pl-4 text-black" 
                             type="text" 
                             id="lname" 
                             name="lname" 
@@ -32,7 +32,7 @@ export function PinpointPoacher() {
 
                     <div className="relative flex justify-center m-12">
                     <input 
-                            className="w-full md:w-3/4 h-12 rounded-2xl pl-4" 
+                            className="w-full md:w-3/4 h-12 rounded-2xl pl-4 text-black" 
                             type="text" 
                             id="email" 
                             name="email" 
@@ -49,10 +49,10 @@ export function PinpointPoacher() {
                             placeholder="Enter your Bitcoin Address" 
                         />
                     </div>
-
-                    </div>
-                    <br />
+                    <Upload></Upload>
                 </div>
+                <br />
+            </div>
         </>
     );
 }
